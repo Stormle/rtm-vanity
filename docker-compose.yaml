@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  stormie-vanity:
+    build: .
+    container_name: stormie-vanity
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
